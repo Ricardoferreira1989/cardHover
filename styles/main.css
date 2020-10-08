@@ -80,4 +80,29 @@ body
   margin-top: 10px;
   text-decoration: none;
 }
-
+@media (max-width: 991px)
+{
+  .card
+  {
+    position: relative;
+    width: auto;
+    max-width: 600px;
+    transition: 0.5s;
+    align-items: flex-start;
+  }
+  .card:hover
+  {
+    height: 600px;
+  }
+  .card:hover img
+  {
+    left: 0;
+    height: 18em;
+    border-radius: 100%;
+  }
+  .card .content {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+}
