@@ -106,3 +106,12 @@ body
     padding: 40px;
   }
 }
+@media (max-width: 420px)
+{
+  .card .content {
+    padding: 30px;
+  }  
+  .card:hover img{
+    height: 300px;
+  }
+}
